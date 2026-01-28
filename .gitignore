@@ -1,0 +1,46 @@
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+screenshots/
+videos/
+traces/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.test
+
+# Test Reports
+allure-results/
+allure-report/
+reports/
